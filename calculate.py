@@ -1,0 +1,19 @@
+print("Nolb v ka4estve znaka operacii zaverashit  raboty programmbI")
+while True:
+    s = input("Znak (or, xor, and, not): ")
+    if s == '0' : break
+    if s == 'not':
+        x = bool(input("x="))
+        print(~ x)
+    elif s in ('or', 'and', 'xor'):
+        x = bool(input("x="))
+        y = bool(input("y="))
+        if s == 'or':
+            print(x | y)
+        elif s == 'and':
+            print(x & y)
+        elif s == 'xor':
+             print(x ^ y)
+    else:
+        print("Nevernyi znak operatii!")
+
