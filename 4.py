@@ -1,4 +1,7 @@
+import kurs
 import andrew
+
+
 
 def main():
     rate = int(input("Vvedite procentnyu stavky: "))
